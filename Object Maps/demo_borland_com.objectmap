@@ -1,0 +1,40 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="demo_borland_com" locator="/BrowserApplication" urlPattern="*demo.borland.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="agentCell" locator="//TR[2]//TD[2]" />
+      <ObjectMapEntry id="autoQuoteEmail" locator="//INPUT[@id='autoquote:e-mail']" />
+      <ObjectMapEntry id="autoQuoteNext" locator="//INPUT[@id='autoquote:next']" />
+      <ObjectMapEntry id="autoQuoteYear" locator="//INPUT[@id='autoquote:year']" />
+      <ObjectMapEntry id="autoQuoteZipcode" locator="//INPUT[@id='autoquote:zipcode']" />
+      <ObjectMapEntry id="carMakesListbox" locator="//DIV[@id='carMakesDIV']//IMG[@id='ext-gen*']" />
+      <ObjectMapEntry id="carMakesToyota" locator="//DIV[@textContents='Toyota']" />
+      <ObjectMapEntry id="carModelsHilux" locator="//DIV[@textContents='Hilux']" />
+      <ObjectMapEntry id="carModelsListbox" locator="//DIV[@id='carModelsDIV']//IMG[@id='ext-gen*']" />
+      <ObjectMapEntry id="creditCardExpiration" locator="//INPUT[@id='purchaseQuote:expiration']" />
+      <ObjectMapEntry id="creditCardNumber" locator="//INPUT[@id='purchaseQuote:cardnumber']" />
+      <ObjectMapEntry id="customerDetailsLink" locator="//A[@id='purchase-form:customer-details']" />
+      <ObjectMapEntry id="detailsButton" locator="//INPUT[@id='logout-form:details']" />
+      <ObjectMapEntry id="drivingRecordExcellent" locator="//INPUT[@id='autoquote:type:0']" />
+      <ObjectMapEntry id="financialInfoOwn" locator="//INPUT[@id='autoquote:finInfo:0']" />
+      <ObjectMapEntry id="genderFemale" locator="//INPUT[@id='autoquote:gender:1']" />
+      <ObjectMapEntry id="genderMale" locator="//INPUT[@id='autoquote:gender:0']" />
+      <ObjectMapEntry id="homeListItem" locator="//LI[@id='home']">
+        <ObjectMapEntry id="homeLink" locator="//A[@textContents='Home']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="lastNameField" locator="//INPUT[@id='name-search:lastName']" />
+      <ObjectMapEntry id="loggedInAs" locator="//P[@textContents='Logged in as']" />
+      <ObjectMapEntry id="loginButton" locator="//INPUT[@id='login-form:login']" />
+      <ObjectMapEntry id="loginEmail" locator="//INPUT[@id='login-form:email']" />
+      <ObjectMapEntry id="loginPassword" locator="//INPUT[@id='login-form:password']" />
+      <ObjectMapEntry id="logoutButton" locator="//INPUT[@id='logout-form:logout']" />
+      <ObjectMapEntry id="purchaseButton" locator="//INPUT[@id='quote-result:purchase-quote' or @id='purchaseQuote:purchase']" />
+      <ObjectMapEntry id="quickLinks" locator="//SELECT[@id='quick-link:jump-menu']" />
+      <ObjectMapEntry id="quoteResult" locator="//H1[@textContents='Your Instant Quote is*']/B" />
+      <ObjectMapEntry id="quoteRow" locator="//DIV[@class='x-grid3-viewport']//DIV[@class='x-grid3-row*']" />
+      <ObjectMapEntry id="quoteTable" locator="//DIV[@class='x-grid3-viewport']//TABLE" />
+      <ObjectMapEntry id="searchByNameButton" locator="//INPUT[@id='name-search:search-name']" />
+      <ObjectMapEntry id="vehicleCar" locator="//INPUT[@id='autoquote:vehicle:0']" />
+      <ObjectMapEntry id="vehicleTruck" locator="//INPUT[@id='autoquote:vehicle:1']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>

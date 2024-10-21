@@ -1,0 +1,56 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="gmo_store" locator="//BrowserApplication" urlPattern="*demo.borland.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="aboutBtn" locator="//a[@id='aboutBtn']" />
+      <ObjectMapEntry id="addButton" locator="//li[@id='item']/button[@id='addButton']" />
+      <ObjectMapEntry id="addButton2" locator="//li[@id='item'][2]/button[@id='addButton']" />
+      <ObjectMapEntry id="addButton3" locator="//li[@id='item'][3]/button[@id='addButton']" />
+      <ObjectMapEntry id="address" locator="//input[@id='address']" />
+      <ObjectMapEntry id="address2" locator="//input[@id='address2']" />
+      <ObjectMapEntry id="card_num" locator="//td[@id='card_num']" />
+      <ObjectMapEntry id="card_num Input" locator="//input[@id='card_num']" />
+      <ObjectMapEntry id="cart confirm button" locator="//img[@id='cart confirm image']" />
+      <ObjectMapEntry id="Cart Quantity" locator="//A[@title='Cart Qty']" />
+      <ObjectMapEntry id="Cart Total" locator="//h5[@id='cart']" />
+      <ObjectMapEntry id="cart trash image" locator="//img[@id='cart trash image']" />
+      <ObjectMapEntry id="city" locator="//input[@id='city']" />
+      <ObjectMapEntry id="closeBtn" locator="//button[@id='closeBtn']" />
+      <ObjectMapEntry id="confirmBtn" locator="//button[@id='confirmBtn']" />
+      <ObjectMapEntry id="countries" locator="//select[@id='countries']" />
+      <ObjectMapEntry id="cvv" locator="//input[@id='cvv']" />
+      <ObjectMapEntry id="email" locator="//input[@id='email']" />
+      <ObjectMapEntry id="exp_date" locator="//input[@id='exp_date']" />
+      <ObjectMapEntry id="FinishOrder" locator="//button[@id='FinishOrder']" />
+      <ObjectMapEntry id="full_name" locator="//td[@id='full_name']" />
+      <ObjectMapEntry id="full_name Input" locator="//input[@id='full_name']" />
+      <ObjectMapEntry id="headerTotal" locator="//h1[@id='headerTotal']" />
+      <ObjectMapEntry id="menuHome" locator="//a[@id='mnuHome']" />
+      <ObjectMapEntry id="Modal Cart" locator="//div[@id='modal-cart']">
+        <ObjectMapEntry id="Row1" locator="//TR[@id='cart table items row'][1]">
+          <ObjectMapEntry id="Price" locator="//TD[@id='cart table items price']" />
+          <ObjectMapEntry id="Quantity" locator="//TD[@id='cart table items qty']" />
+        </ObjectMapEntry>
+        <ObjectMapEntry id="Row2" locator="//TR[@id='cart table items row'][2]">
+          <ObjectMapEntry id="Price" locator="//TD[@id='cart table items price']" />
+          <ObjectMapEntry id="Quantity" locator="//TD[@id='cart table items qty']" />
+        </ObjectMapEntry>
+        <ObjectMapEntry id="Row3" locator="//TR[@id='cart table items row'][3]">
+          <ObjectMapEntry id="Price" locator="//TD[@id='cart table items price']" />
+          <ObjectMapEntry id="Quantity" locator="//TD[@id='cart table items qty']" />
+        </ObjectMapEntry>
+        <ObjectMapEntry id="Total" locator="//h2[@id='Modal Cart Total']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="modalBtn Confirm" locator="//a[@id='modalBtn Confirm']" />
+      <ObjectMapEntry id="pay_name" locator="//input[@id='pay_name']" />
+      <ObjectMapEntry id="phone" locator="//input[@id='phone']" />
+      <ObjectMapEntry id="phone INPUT" locator="//INPUT[@id='phone']" />
+      <ObjectMapEntry id="qtyInput" locator="//li[@id='item'][3]/div[@id='item qty']/input[@id='qtyInput']" />
+      <ObjectMapEntry id="sctGMO title" locator="//h2[@id='sctGMO title']" />
+      <ObjectMapEntry id="showCart" locator="//img[@id='showCart']" />
+      <ObjectMapEntry id="showMenu" locator="//img[@id='showMenu']" />
+      <ObjectMapEntry id="storeBtn" locator="//a[@id='storeBtn']" />
+      <ObjectMapEntry id="submitFormIMG" locator="//img[@id='submitFormIMG']" />
+      <ObjectMapEntry id="zip" locator="//input[@id='zip']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
